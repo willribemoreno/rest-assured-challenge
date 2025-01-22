@@ -6,6 +6,7 @@
 2. [Prerequisites](#prerequisites)
 3. [Setup](#setup)
 4. [Run tests](#run-tests)
+5. [Open Allure report](#allure-report)
 
 ## Documentation Objective
 This documentation aims to describe the project prerequisites, how to set up it, and how to run your API tests.
@@ -49,3 +50,9 @@ Example:
 mvn clean test -Dtest=RestAssuredChallengeTest#getPosts
 ```
 
+# Allure report
+In order to open the Allure report, run the following command
+
+```bash 
+mvn allure:serve
+```
